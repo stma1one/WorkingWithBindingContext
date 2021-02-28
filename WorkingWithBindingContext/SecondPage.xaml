@@ -7,6 +7,9 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Label Text="Position in array" TextColor="DeepSkyBlue" FontSize="18" HorizontalOptions="CenterAndExpand"></Label>
+            <Label Text="{Binding Index}" HorizontalOptions="CenterAndExpand" FontSize="25"></Label>
+            <Label Text="Name" TextColor="DeepSkyBlue" FontSize="18" HorizontalOptions="Center"></Label>
             <Label Text="{Binding Names}" TextColor="DarkOliveGreen" VerticalOptions="CenterAndExpand" 
                    HorizontalTextAlignment="Center" 
                    HorizontalOptions="CenterAndExpand" FontSize="25">

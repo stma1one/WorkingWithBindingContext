@@ -23,9 +23,10 @@ namespace WorkingWithBindingContext
 
 
             b= new BindableExample { Index = 0 };
+            BindingContext = b;
             LblTxt.SetBinding(Label.TextProperty, "Names");
             stck.Children.Add(LblTxt);
-            BindingContext = b;
+            
          
         }
 
